@@ -173,6 +173,7 @@ img {
   -ms-transform: scale(0.75);
   transform: scale(0.75);
   padding: 20px;
+  border-radius: 7px;
   opacity: 0.5;
 }
 
@@ -276,4 +277,74 @@ footer{
 .faq-ans{
     display: none;
     padding-top: 15px;
+}
+
+
+/* process page */
+
+.c-process-list {
+    margin-top: 5rem;
+    --count-width: 3rem;
+    --count-height: 3rem;
+    --count-font-size: 1.2rem;
+    --item-padding-left: 3rem;
+    --item-padding-bottom: 3rem;
+    list-style: none;
+}
+
+.c-process-list .c__item {
+    counter-increment: process-counter;
+    position: relative;
+    display: flex;
+    padding-bottom: 5rem;
+}
+
+.c-process {
+    transition: all 0.25s ease-in-out;
+    transition-delay: 0.075s;
+    padding-left: 3rem;
+    max-width: 64rem;
+}
+
+.c-process-list .c__item:before {
+    transition: all 0.25s ease-in-out;
+    transition-delay: 0.075s;
+    content: counter(process-counter);
+    background-color: #fff;
+    border: 1px solid #ff9c00;
+    border-radius: 50%;
+    color: #ff9c00;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: var(--count-font-size);
+    display: flex;
+    flex-shrink: 0;
+    height: var(--count-height);
+    width: var(--count-width);
+    z-index: 1;
+}
+
+.c-process-list .c__item:after {
+    background-color: #ff9c00;
+    content: "";
+    display: block;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: calc(var(--count-width) / 2);
+    top: 0;
+}
+
+.c-process-list .c__item:hover:before {
+    background-color: #ff9c00;
+    color: #fff;
+}
+
+.c-process-list .c__item:hover .c-process {
+    color: #ff9c00;
+}
+
+.c-process-list .c__item:last-child {
+    padding-bottom: 0;
 }
