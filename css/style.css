@@ -13,6 +13,9 @@ body {
 body {
   font-family: "Roboto", sans-serif;
 }
+.navbar-dark.fixed-top{
+    background-color: #000000ad !important;
+}
 
 .banner {
   position: relative;
