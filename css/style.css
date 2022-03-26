@@ -242,7 +242,7 @@ footer{
 
 .full-screen-heading{
     color: #fff;
-    font-size: 16vw;
+    font-size: 10vw;
     font-weight: bolder;
     line-height: 1;
     padding-top: 125px;
@@ -251,7 +251,7 @@ footer{
 }
 
 .full-screen-heading.process{
-    font-size: 15vw;
+    /* font-size: 15vw; */
     word-spacing: 1vw;
 }
 
