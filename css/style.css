@@ -174,15 +174,30 @@ img {
 }
 
 .btn {
-  border-radius: 30px;
+ 
   padding: 0.5rem 1.25rem;
 }
-
-.btn-orange {
+.btn-orange{
   background-color: #ff9c00;
+  padding: 0.5rem 1.25rem;
+  border-radius: 30px;
   color: #fff;
 }
 
+
+.btn-dark {
+  background-color: black;
+  color: #fff;
+ 
+  position: relative;
+  left: 50px;
+  transform: translateX(-100px);
+}
+.sec-2{
+  position: relative;
+  left: 50px;
+  transform: translateX(-100px);
+}
 /* slider */
 
 .owl-item .item {
