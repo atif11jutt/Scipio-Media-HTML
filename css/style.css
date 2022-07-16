@@ -84,6 +84,24 @@ img {
   background-color: #ffffff00 !important;
   border-color: #ffffff !important;
 }
+/*.................*/
+
+.list{
+  list-style: none;
+}
+.list li::before{
+  
+    content: "";
+    background-color: #F6A254;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-49px,7px);
+  
+}
+
+
 
 /* WHAT WE DO section */
 
