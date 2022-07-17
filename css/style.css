@@ -28,6 +28,12 @@ body {
   background-position: center center;
   min-height: 100vh;
 }
+#home-web{
+
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
 
 .overlay {
   position: absolute;
@@ -38,7 +44,23 @@ body {
   background: #000000;
   opacity: 0.8;
 }
-
+.web-overlay{
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80vh;
+}
+.banner-Web-text{
+  position: absolute;
+ 
+  
+  width: 100%;
+  color: #fff;
+  
+} 
 .banner-text {
   position: absolute;
   top: 50%;
@@ -196,6 +218,18 @@ img {
  /*/ position: relative;
   left: 50px;
   transform: translateX(-100px);*/
+}
+.btn-web-dark{
+  border-color: #ff9c00;
+}
+.bg-light{
+  background-color: white;
+  
+}
+.web-col{
+  position: relative;
+  top: 50%;
+  margin-top: 80%;
 }
 
 
