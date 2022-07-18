@@ -325,7 +325,9 @@ align-items: center;
 .text-large{
   font-size: 2rem;
 }
-
+.fa-brands{
+  padding: 10px;
+}
 /* footer */
 
 footer {
