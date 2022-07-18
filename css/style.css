@@ -226,7 +226,33 @@ img {
   height: 50vh;
 }
 .web-col{
-  padding-top: 50%;
+  position: relative;
+  top: 50%;
+}
+.web-col-text{
+  position: relative;
+  top: 50%;
+}
+.counting-steps{
+  background-color: #ff9c00;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+ 
+ 
+}
+
+.count-position{
+display:flex;
+align-items: center;
+    justify-content: center;
+}
+
+
+
+.fa-arrow-right-long{
+  color: white;
+  width: 100px;
 }
 
 
