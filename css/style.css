@@ -322,6 +322,9 @@ align-items: center;
 .text-orange {
   color: #ff9c00;
 }
+.text-large{
+  font-size: 2rem;
+}
 
 /* footer */
 
