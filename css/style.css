@@ -111,6 +111,7 @@ img {
 .list{
   list-style: none;
 }
+
 .list li::before{
   
     content: "";
@@ -121,6 +122,10 @@ img {
     position: absolute;
     transform: translate(-49px,7px);
   
+}
+.list-text{
+  font-size: 23px;
+  color: #7f7f80;
 }
 
 
