@@ -345,12 +345,11 @@ footer {
 
 
   
-.img-class-about{
-  width: 100vh;
-  position: relative;
-  left: 50%;  
- transform: translateX(-57%);
-
+.img-class-about-2{
+  border-left: 5px solid white;
+}
+.img-class-about-1{
+  border-right: 5px solid black;
 }
 /* About page end */
 
