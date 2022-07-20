@@ -53,6 +53,8 @@ body {
   bottom: 0;
   height: 80vh;
 }
+
+
 .banner-Web-text{
   position: absolute;
  
@@ -341,8 +343,16 @@ footer {
 
 /* About page */
 
-#about {
+
+  
+.img-class-about{
+  width: 100vh;
+  position: relative;
+  left: 50%;  
+ transform: translateX(-57%);
+
 }
+/* About page end */
 
 .full-screen-heading {
   color: #fff;
