@@ -345,8 +345,23 @@ footer {
 
 
   
-.img-class-about-2{
+/* .img-class-about-2{
   border-left: 5px solid white;
+} 
+
+*/
+
+.img-box-2 {
+  position: relative;
+}
+.img-box-2::before{
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  background-color: #fff;
 }
 .img-class-about-1{
   border-right: 5px solid black;
