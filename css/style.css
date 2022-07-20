@@ -226,11 +226,15 @@ img {
   left: 50px;
   transform: translateX(-100px);*/
 }
+
 .btn-web-dark{
   border-color: #ff9c00;
 }
 .bg-light{
   height: 50vh;
+}
+.web-benefits{
+  padding-top: 20%;
 }
 .web-col{
   position: relative;
@@ -363,9 +367,11 @@ footer {
   height: 100%;
   background-color: #fff;
 }
+
 .img-class-about-1{
   border-right: 5px solid black;
 }
+
 /* About page end */
 
 .full-screen-heading {
