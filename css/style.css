@@ -371,7 +371,9 @@ footer {
 .img-class-about-1{
   border-right: 5px solid black;
 }
-
+.card{
+  width: 18rem;
+}
 /* About page end */
 
 .full-screen-heading {
