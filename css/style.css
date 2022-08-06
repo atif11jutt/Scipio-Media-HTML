@@ -5,6 +5,7 @@
   padding: 0;
   font-family: sans-serif;
 }
+
 html,
 body {
   scroll-behavior: smooth;
@@ -13,6 +14,7 @@ body {
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .navbar-dark.fixed-top {
   background-color: transparent !important;
   position: absolute !important;
@@ -28,7 +30,8 @@ body {
   background-position: center center;
   min-height: 100vh;
 }
-#home-web{
+
+#home-web {
 
   background-size: cover;
   background-position: center center;
@@ -44,7 +47,8 @@ body {
   background: #000000;
   opacity: 0.8;
 }
-.web-overlay{
+
+.web-overlay {
   background-color: black;
   position: absolute;
   top: 0;
@@ -55,14 +59,15 @@ body {
 }
 
 
-.banner-Web-text{
+.banner-Web-text {
   position: absolute;
- 
-  
+
+
   width: 100%;
   color: #fff;
-  
-} 
+
+}
+
 .banner-text {
   position: absolute;
   top: 50%;
@@ -108,24 +113,26 @@ img {
   background-color: #ffffff00 !important;
   border-color: #ffffff !important;
 }
+
 /*.................*/
 
-.list{
+.list {
   list-style: none;
 }
 
-.list li::before{
-  
-    content: "";
-    background-color: #F6A254;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    position: absolute;
-    transform: translate(-49px,7px);
-  
+.list li::before {
+
+  content: "";
+  background-color: #F6A254;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-49px, 7px);
+
 }
-.list-text{
+
+.list-text {
   font-size: 23px;
   color: #7f7f80;
 }
@@ -190,80 +197,84 @@ img {
 }
 
 .text-gradient {
-  background-image: linear-gradient(
-    71deg,
-    #ffffff,
-    #fbd3b6 36%,
-    #ff9c00 55%,
-    #f3f3f3
-  );
+  background-image: linear-gradient(71deg,
+      #ffffff,
+      #fbd3b6 36%,
+      #ff9c00 55%,
+      #f3f3f3);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .btn {
- 
+
   padding: 0.5rem 1.25rem;
 }
-.btn-orange{
+
+.btn-orange {
   background-color: #ff9c00;
   padding: 0.5rem 1.25rem;
- position: relative;
- left: 0;
- transform: translateX(-3px);
+  position: relative;
+  left: 0;
+  transform: translateX(-3px);
   color: #fff;
 }
 
-.contact-color{
+.contact-color {
   color: #ff9c00;
 }
+
 .btn-dark {
   background-color: black;
   color: #fff;
- 
- /*/ position: relative;
+
+  /*/ position: relative;
   left: 50px;
   transform: translateX(-100px);*/
 }
 
-.btn-web-dark{
+.btn-web-dark {
   border-color: #ff9c00;
 }
-.bg-light{
+
+.bg-light {
   height: 50vh;
 }
-.web-benefits{
+
+.web-benefits {
   padding-top: 20%;
 }
-.web-col{
+
+.web-col {
   position: relative;
   top: 50%;
 }
-.web-col-text{
+
+.web-col-text {
   position: relative;
   top: 50%;
 }
-.counting-steps{
+
+.counting-steps {
   background-color: #ff9c00;
   width: 30px;
   height: 30px;
   border-radius: 50%;
- 
- 
+
+
 }
 
-.count-position{
-display:flex;
-align-items: center;
-    justify-content: center;
+.count-position {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 
-.fa-arrow-right-long{
-  color: white;
-  width: 100px;
+.fa-arrow-right-long {
+  padding-left: 20px;
 }
 
 
@@ -333,12 +344,15 @@ align-items: center;
 .text-orange {
   color: #ff9c00;
 }
-.text-large{
+
+.text-large {
   font-size: 2rem;
 }
-.fa-brands{
+
+.fa-brands {
   padding: 10px;
 }
+
 /* footer */
 
 footer {
@@ -348,7 +362,7 @@ footer {
 /* About page */
 
 
-  
+
 /* .img-class-about-2{
   border-left: 5px solid white;
 } 
@@ -358,7 +372,8 @@ footer {
 .img-box-2 {
   position: relative;
 }
-.img-box-2::before{
+
+.img-box-2::before {
   content: "";
   position: absolute;
   left: -5px;
@@ -368,12 +383,14 @@ footer {
   background-color: #fff;
 }
 
-.img-class-about-1{
+.img-class-about-1 {
   border-right: 5px solid black;
 }
-.card{
+
+.card {
   width: 18rem;
 }
+
 /* About page end */
 
 .full-screen-heading {
@@ -488,16 +505,17 @@ footer {
 
 
 
-@media (max-width: 992px){
-    .navbar-dark.fixed-top {
-        background-color: #000 !important;
-    }
+@media (max-width: 992px) {
+  .navbar-dark.fixed-top {
+    background-color: #000 !important;
+  }
 
-    .navbar-dark .navbar-nav .nav-link {
-        position: relative;
-        display: inline-block;
-    }
-    .navbar-dark .navbar-nav .nav-link::before {
-        width: 100% !important;
-    }
+  .navbar-dark .navbar-nav .nav-link {
+    position: relative;
+    display: inline-block;
+  }
+
+  .navbar-dark .navbar-nav .nav-link::before {
+    width: 100% !important;
+  }
 }
