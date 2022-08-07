@@ -61,24 +61,30 @@
     
 
    <!----footer------>
-   <footer>
+   <footer class="pt-5">
     <div class="container py-5">
-        <div class="row align-items-center py-5">
+        <div class="row py-5">
 
-            <div class="col-sm-6 mb-4">
-                <!-----------contact form---------->
-                <form action="#." class="">
-                    <div class="row pt-5">
+            <div class="col-lg-6 order-lg-2">
+                <p class="text-light">We would love to hear from you!</p>
+                <h1 class="contact-color"><b>Contact Us</b></h1>
+                <p class="text-light">Right now there is no us.I'm running the show alone.So everyfeedback you
+                    provide,any suggestion you have or any new idea you like to share -- please don't hesitate,
+                    write to me immediately. <br><br> I'm a social animal. Animal because I've some degree of
+                    rendomness in my behaviour. Social because I love to hear and share with people.</p>
+            </div>
+            <div class="col-lg-6">
+                <!--contact form-->
+                <form action="#." method="post" id="contact-form">
+                    <div class="row">
                         <div class="col-sm-6">
-                            <div class="form-group pt-5">
-
+                            <div class="form-group">
                                 <input class="form-control bg-black border border-secondary" id="name"
-                                    placeholder="Enter your valid Email" type="text">
+                                    placeholder="Enter your valid Email" type="text" required>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="form-group pt-5">
-
+                            <div class="form-group">
                                 <input class="form-control bg-black border border-secondary" id="email" required=""
                                     type="email" placeholder="Enter your Name">
                             </div>
@@ -87,13 +93,11 @@
                             <div class="form-group">
                                 <input class="form-control bg-black border border-secondary" id="subject"
                                     required="" type="text" placeholder="Enter your Address">
-
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="form-group">
-
                                 <input class="form-control bg-black border border-secondary" id="phone" required=""
                                     type="tel" placeholder="Enter your Phone(eg+ 14155)">
                             </div>
@@ -101,9 +105,8 @@
 
                         <div class="col-sm-12">
                             <div class="form-group">
-
                                 <textarea class="form-control bg-black border border-secondary" name="message"
-                                    id="message" rows="5"></textarea>
+                                    id="message" rows="5" placeholder="Enter your message" required></textarea>
                             </div>
                         </div>
 
@@ -115,25 +118,32 @@
                 </form>
                 <!----------contact form end----------->
 
-                <div class="mt-5 text-light"> <b>
-                        <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-twitter"></i> <i
-                            class="fa-brands fa-instagram "></i> <i class="fa-brands fa-behance"></i> <i
-                            class="fa-brands fa-pinterest-p"></i>
-                    </b>
+                <div class="mt-5 text-light">
+                    <a href="#." class="social-icon">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#." class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+
+                    <a href="#." class="social-icon">
+                        <i class="fa-brands fa-instagram "></i>
+                    </a>
+
+                    <a href="#." class="social-icon">
+                        <i class="fa-brands fa-behance"></i>
+                    </a>
+
+                    <a href="#." class="social-icon">
+                        <i class="fa-brands fa-pinterest-p"></i>
+                    </a>
                 </div>
 
 
             </div>
-            <div class="col-sm-6 mb-4">
-                <p class="text-light">We would love to hear from you!</p>
-                <h1 class="contact-color"><b>Contact Us</b></h1>
-                <p class="text-light">Right now there is no us.I'm running the show alone.So everyfeedback you
-                    provide,any suggestion you have or any new idea you like to share -- please don't hesitate,
-                    write to me immediately. <br><br> I'm a social animal. Animal because I've some degree of
-                    rendomness in my behaviour. Social because I love to hear and share with people.</p>
-            </div>
-            <div>
-            </div>
+            
+            
         </div>
     </div>
     <div class="container-fluid">

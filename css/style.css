@@ -20,6 +20,10 @@ body {
   position: absolute !important;
 }
 
+a{
+  text-decoration: none !important;
+}
+
 .banner {
   position: relative;
 }
@@ -32,7 +36,6 @@ body {
 }
 
 #home-web {
-
   background-size: cover;
   background-position: center center;
   min-height: 100vh;
@@ -219,6 +222,13 @@ img {
   left: 0;
   transform: translateX(-3px);
   color: #fff;
+  transition: 0.3s;
+}
+
+.btn-orange:hover {
+  color: #ff9c00 !important;
+  background: none !important;
+  border: 1px solid #ff9c00 !important;
 }
 
 .contact-color {
@@ -277,6 +287,10 @@ img {
   padding-left: 20px;
 }
 
+footer .fa-arrow-right-long{
+  padding-left: 0;
+}
+
 
 /* slider */
 
@@ -332,7 +346,7 @@ img {
   border-left: none;
   border-top: none;
   border-right: 0;
-  border-radius: 0;
+  /* border-radius: 0; */
   outline: none;
   box-shadow: none !important;
 }
@@ -349,8 +363,21 @@ img {
   font-size: 2rem;
 }
 
-.fa-brands {
+/* .fa-brands {
   padding: 10px;
+} */
+
+.social-icon{
+  text-decoration: none !important;
+  color: #fff !important;
+  transition: 0.3s;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.social-icon:hover{
+  color: #ff9c00 !important;
+  /* transform: scale(1.1); */
 }
 
 /* footer */
