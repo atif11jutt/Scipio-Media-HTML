@@ -64,8 +64,7 @@ a{
 
 .banner-Web-text {
   position: absolute;
-
-
+  background-color: #000;
   width: 100%;
   color: #fff;
 
@@ -415,7 +414,8 @@ footer {
 }
 
 .card {
-  width: 18rem;
+  max-width: 18rem;
+  margin: auto;
 }
 
 /* About page end */
@@ -545,4 +545,14 @@ footer {
   .navbar-dark .navbar-nav .nav-link::before {
     width: 100% !important;
   }
+}
+
+
+@media (max-width: 767px) {
+  .counting-steps {
+    margin: 0 1rem !important;
+}
+.count-position img{
+  width: 70px;
+}
 }
