@@ -62,13 +62,18 @@ a{
 }
 
 
-.banner-Web-text {
-  position: absolute;
+.services-banner {
   background-color: #000;
-  width: 100%;
   color: #fff;
-
+  padding-top: 75px;
 }
+
+.service-project-ask-text{
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .banner-text {
   position: absolute;
@@ -232,6 +237,18 @@ img {
   border: 1px solid #ff9c00 !important;
 }
 
+.btn-orange-outline {
+  border: 1px solid #ff9c00;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-orange-outline:hover {
+  background: #ff9c00 !important;
+  color: #fff;
+  border-color: #fff;
+}
+
 .contact-color {
   color: #ff9c00;
 }
@@ -253,9 +270,9 @@ img {
   height: 50vh;
 }
 
-.benefits {
+/* .benefits {
   padding:5% 0;
-}
+} */
 
 .web-col {
   position: relative;
@@ -425,6 +442,7 @@ footer {
 
 .card {
   max-width: 18rem;
+  width: 100% !important;
   margin: auto;
 }
 
