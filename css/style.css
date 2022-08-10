@@ -122,8 +122,11 @@ img {
   list-style: none;
 }
 
-.list li::before {
+.list li{
+  padding-left: 49px;
+}
 
+.list li::before {
   content: "";
   background-color: #F6A254;
   width: 30px;
@@ -131,7 +134,6 @@ img {
   border-radius: 50%;
   position: absolute;
   transform: translate(-49px, 7px);
-
 }
 
 .list-text {
@@ -319,6 +321,14 @@ footer .fa-arrow-right-long{
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .testi_slider .owl-item.center .item {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
 }
 
 .testi_slider .owl-nav {
